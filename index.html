@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio-Trem Bão</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <div class="position-fixed container-fluid m-0 p-0" style="z-index: 1000; top: 0;">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#"><img src="Assets/img/logo(1).png" alt="Logo" class="img-fluid" width="65px"></a>
+                <details id="details" class="navbar-toggler" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false">
+                    <summary> Cardápio</summary>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#Almoco">Almoço</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Petisco">Petiscos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Galetos">Galetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bebidas">Bebidas</a>
+                        </li>
+                    </ul>
+                </details>
+
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#Almoco">Almoço</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Petisco">Petiscos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Galetos">Galetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bebidas">Bebidas</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="main container">
+        <div class="text-center mt-sm-4 mt-4">
+            <h2 class="text-center mt-sm-4 mt-4">Cardápio</h2>
+            <hr>
+        </div>
+        <!-- Início Almoço -->
+        <div id="Almoco" class="text-center text-light mt-sm-4 mt-4">
+            <h3 class="  text-center mt-sm-4 mt-4">Almoço</h3>
+
+        </div>
+        <br>
+        <div class="artigo container ">
+            <div class=" row  ">
+                <div class="card mx-auto bg-light text-dark " id="hr" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Almoco/bifeacebolado.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Bife Acebolado</h5>
+                        <hr>
+                        <p class="card-text">Acompanhamento:
+                            <br> Arroz, Feijão, Farofa e Fritas
+                            <br>
+                            <br>
+                            <br>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 24,90</h6>
+                    </div>
+                </div>
+                <div class="card mx-auto  bg-light text-dark" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Almoco/Frango_empanado.jpg" alt="Imagem de capa do card" width="296px" height="195.70px">
+                    <div class="card-body">
+                        <h5 class="card-title">Filé de Frango Empanado</h5>
+                        <hr id="hr">
+                        <p class="card-text">Acompanhamento:
+                            <br>Arroz, Feijão, Farofa e Fritas
+                            <br>
+                            <br>
+                            <br>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 17,00</h6>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Almoco/bifeaparmegiana.jpg" alt="Imagem de capa do card" width="286" height="195.7">
+                    <div class="card-body">
+                        <h5 class="card-title">Parmegiana de Carne</h5>
+                        <hr>
+                        <p class="card-text">Acompanhamento:
+                            <br> Arroz, Feijão, Farofa e Fritas
+                            <br>
+                            <br>
+                            <br>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 28,00</h6>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class=" row  ">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Almoco/parmegiana_frango.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Parmegiana de Frango</h5>
+                        <hr>
+                        <p class="card-text">Acompanhamento:
+                            <br>Arroz, Feijão e Farofa
+                            <br>
+                            <br>
+                            <br>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 18,00</h6>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Almoco/strogonoff_de_frango.jpg" alt="Imagem de capa do card" width="296px" height="195.70px">
+                    <div class="card-body">
+                        <h5 class="card-title">Strogonoff de Frango</h5>
+                        <hr>
+                        <p class="card-text">Acompanhamento:
+                            <br>Arroz e Batata Palha
+                            <br>
+                            <br>
+                            <br>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 15,00</h6>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Almoco/mineira.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Linguiça Mineira</h5>
+                        <hr>
+                        <p class="card-text">Acompanhamento:
+                            <br> Arroz, Feijão, Farofa, Couve
+                            <br> Torresmo e Ovo
+                            <br>
+                            <br>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 18,00</h6>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Almoco/Dobradinha.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Dobradinha Prime Chef</h5>
+                        <hr>
+                        <p class="card-text">Acompanhamento:
+                            <br>Arroz e Farofa
+                            <br>
+                            <br>
+                            <br>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 25,00</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Final Almoço-->
+        <hr>
+        <!-- Início Petiscos-->
+        <div id="Petisco" class="text-center mt-sm-4 mt-4">
+            <h3 class="  text-center text-light mt-sm-4 mt-4">Petisco</h3>
+
+        </div>
+        <br>
+        <div class="artigo container ">
+            <div class=" row  ">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Petisco/Barca01.jpg" alt="Imagem de capa do card" width="286" height="195.7">
+                    <div class="card-body">
+                        <h5 class="card-title">Barca 01</h5>
+
+                        <p class="card-text">Isca de Carne Acebolado,
+                            <br> Frango Empanado, Batata Frita e
+                            <br>Filé de Peixe Empanado
+                            <br>
+                            <br><strong> P/ 2 Pessoas </strong>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 55,00</h6>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Petisco/Torre Calabresa.png" alt="Imagem de capa do card" width="296px" height="195.70px">
+                    <div class="card-body">
+                        <h5 class="card-title">Barca 02</h5>
+                        <p class="card-text">
+                            Batata Frita, Bacon,
+                            <br> Calabresa e Cheddar
+                            <br>
+                            <br>
+                            <br><strong>P/2 Pessoas</strong>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 25,00</h6>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Petisco/Batata_Frita_Comum.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Barca 03</h5>
+                        <p class="card-text">
+                            Batata Frita
+                            <br>
+                            <br>
+                            <br>
+                            <br><strong>P/2 Pessoas</strong>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 18,00</h6>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class=" row  ">
+
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Petisco/Petisco Diversos.jpg" alt="Imagem de capa do card" width="296px" height="195.70px">
+                    <div class="card-body">
+                        <h5 class="card-title">Petiscos</h5>
+                        <ul class="card-text">
+                            <li>Bife Acebolado - R$ 28,00</li>
+                            <li>Filé de Frango - R$ 22,00</li>
+                            <li>Filé de Peixe - R$ 25,00</li>
+                            <li>Torresminho - R$ 8,00</li>
+                            <li>Aipim com Carne Seca - R$ 29,90</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Petisco/calabresa-acebolada-1.jpg" alt="Imagem de capa do card" width="286" height="195.7">
+                    <div class="card-body">
+                        <h5 class="card-title">Petiscos</h5>
+                        <ul class="card-text">
+                            <li>Calabresa - R$ 18,00</li>
+                            <li>Joelho de Porco - R$ 19,90 </li>
+                            <li>Caldo de Mocotó - R$ 18,00</li>
+                            <li>Dobradinha Prime - R$ 23,00</li>
+                            <br>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <br>
+
+        </div>
+        <!--Final Petiscos-->
+        <hr>
+        <!--Inicio Galetos-->
+        <div id="Galetos" class="text-center mt-sm-4 mt-4">
+            <h3 class="  text-center text-light mt-sm-4 mt-4">Galetos</h3>
+
+        </div>
+        <br>
+        <div class="artigo container ">
+            <div class=" row  ">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Galeto/Galeto Assado-01.png" alt="Imagem de capa do card" width="286" height="195.7">
+                    <div class="card-body">
+                        <h5 class="card-title">Galeto Assado 01</h5>
+                        <p class="card-text">
+                            Acompanhamento:
+                            <br> Arroz, Salpicão, Farofa e Fritas
+                            <br>
+                            <br> <strong>P/ 2 Pessoas</strong>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 45,00</h6>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Galeto/Galeto Assado-02.jpg" alt="Imagem de capa do card" width="296px" height="195.70px">
+                    <div class="card-body">
+                        <h5 class="card-title">Galeto Assado 02</h5>
+                        <p class="card-text">Acompanhamento:
+                            <br>Arroz, Farofa e Molho à Campanha
+                            <br>
+                            <br> <strong>P/ 2 Pessoas</strong>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 38,00</h6>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Galeto/Galeto Assado-03.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Galeto Assado 03</h5>
+                        <p class="card-text">
+                            Acompanhamento:
+                            <br>Arroz, Batata Assada e Farofa
+                            <br>
+                            <br> <strong>P/ 2 Pessoas</strong>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 36,00</h6>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class=" row  ">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Galeto/Galeto Simples.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Galeto Simples</h5>
+                        <p class="card-text">
+                            Sem Acompanhamento
+                            <br><br><br><strong>P/ 1 Pessoa</strong>
+                        </p>
+                        <h6 class="text-center text-light bg-secondary p-2" id="preco">R$ 19,90</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Final Galetos-->
+        <hr>
+        <!--Inicio Bebidas-->
+        <div id="bebidas" class="text-center mt-sm-4 mt-4">
+            <h3 class="  text-center text-light mt-sm-4 mt-4">Bebidas</h3>
+
+        </div>
+        <br>
+        <div class="artigo container ">
+            <div class=" row  ">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Refrigerantes/Refrigerantes.jpg" width="286px" height="195.7px" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrigerantes</h5>
+                        <ul class="card-text">
+                            <li>Coca-Cola (Lata) - R$ 5,00</li>
+                            <li>Coca Zero (Lata) - R$ 6,00</li>
+                            <li>Fanta (Lata) - R$ 5,00</li>
+                            <li>Guaraná (Lata) - R$ 5,00</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Refrigerantes/Cervejas.jpg" alt="Imagem de capa do card" width="296px" height="195.70px">
+                    <div class="card-body">
+                        <h5 class="card-title">Cervejas</h5>
+                        <ul class="card-text">
+                            <li>Torre de Cerveja - R$ 25,00</li>
+                            <li>Skol (Lata) - R$ 6,00</li>
+                            <li>Heineken (Lata)- R$ 7,00</li>
+                            <li>Itaipava (Lata)R$ - R$ 5,00</li>
+                            <li>Brahma (Lata) - R$ 5,00</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets/img/Refrigerantes/Drinks.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Drinks</h5>
+                        <ul class="card-text">
+                            <li>Caipirinha (Limão) - R$ 10,00</li>
+                            <li>Cachaça Mineira </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <br>
+
+        </div>
+        <!--Final Bebidas-->
+
+        <br>
+    </div>
+
+
+
+    <footer class="container-fluid bg-dark  pb-4">
+        <div>
+            <h5 class="text-center text-light pt-5">Criado Por Wagner Batista</h5>
+        </div>
+    </footer>
+
+    <style>
+        body {
+            background: url(Assets/img/background.jpg);
+        }
+        
+        hr {
+            border-color: white;
+        }
+        
+        #preco {
+            border-radius: 5px;
+        }
+    </style>
+</body>
+
+</html>
